@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETAngularWebApp.Server", "
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "netangularwebapp.client", "netangularwebapp.client\netangularwebapp.client.esproj", "{091956BB-32AD-48D4-98B6-B1176B67DF9D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netAngularWebApp.Test", "..\netAngularWebApp.Test\netAngularWebApp.Test.csproj", "{830836C4-EBF4-4ACD-AD64-EBD8CC9669F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netAngularWebApp.e2etest", "..\netAngularWebApp.e2etest\netAngularWebApp.e2etest.csproj", "{920C1A5D-2078-41EC-9FF0-62BC6B24CC99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{79A1A58B-D18E-4C23-8847-36041E9F1437}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,9 +29,21 @@ Global
 		{091956BB-32AD-48D4-98B6-B1176B67DF9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{091956BB-32AD-48D4-98B6-B1176B67DF9D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{091956BB-32AD-48D4-98B6-B1176B67DF9D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{830836C4-EBF4-4ACD-AD64-EBD8CC9669F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{830836C4-EBF4-4ACD-AD64-EBD8CC9669F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{830836C4-EBF4-4ACD-AD64-EBD8CC9669F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{830836C4-EBF4-4ACD-AD64-EBD8CC9669F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{920C1A5D-2078-41EC-9FF0-62BC6B24CC99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{920C1A5D-2078-41EC-9FF0-62BC6B24CC99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{920C1A5D-2078-41EC-9FF0-62BC6B24CC99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{920C1A5D-2078-41EC-9FF0-62BC6B24CC99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{830836C4-EBF4-4ACD-AD64-EBD8CC9669F3} = {79A1A58B-D18E-4C23-8847-36041E9F1437}
+		{920C1A5D-2078-41EC-9FF0-62BC6B24CC99} = {79A1A58B-D18E-4C23-8847-36041E9F1437}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5F77D16A-A51A-484D-B434-DABAF9E7BEB0}
